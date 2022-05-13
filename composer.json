@@ -1,0 +1,19 @@
+{
+    "name": "ign/helloworld",
+    "description": "Sample packagist package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ign\\Helloworld\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MBorne",
+            "email": "mickael.borne@ign.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
